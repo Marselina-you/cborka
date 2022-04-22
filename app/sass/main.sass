@@ -1,0 +1,79 @@
+@import "null.sass"
+body
+	background-color: bisque
+	@media screen and (max-width: 1200px)
+		background-color: white
+	@media screen and (max-width: 992px)
+		background-color: palegoldenrod
+	@media screen and (max-width: 768px)
+		background-color: paleturquoise
+// Содержимое файла main.sass
+//Цвета
+//цвет фона
+$pale: rgba(219, 218, 196, 0.7)
+$whiteMilk: rgb(243, 245, 247)
+$whiteElephant: rgb(219, 218, 196)
+$white: rgb(255, 255, 255)
+$bluePale: rgb(191, 226, 230)
+$yellowPale: rgb(251, 246, 202)
+//цвета шрифтов
+$brownLight:  rgb(139, 115, 85)
+$brownDark:   rgb(53, 30, 16)
+$brownMiddle: rgba(77, 72, 60, 0.7)
+$burgundy: rgb(165, 42, 42)
+//цвета кнопок
+$greenVivid: rgb(62, 142, 78)
+$orange: rgb(241, 115, 69) //#f17345ff
+
+//Шрифты
+.brownDark
+	color: $brownDark
+
+.fontTahoma
+	font-family: "Tahoma"
+.fontSans
+	font-family: "Microsoft Sans Serif"
+	letter-spacing: .5px
+.fontArial
+	font-family: "Arial"
+//Размеры шрифтов
+.size45px
+	font-size: 2.75em
+.size35px
+	font-size: 2.2em
+.size32px
+	font-size: 2em
+.size29px
+	font-size: 1.8em
+.size26px
+	font-size: 1.6em
+.size24px
+	font-size: 1.5em
+	@media screen and (max-width: 1200px)
+	font-size: 1.25em
+.size22px
+	font-size: 1.4em
+.size20px
+	font-size: 1.25em
+.size16px
+	font-size: 1em
+.icons__item_padding
+	padding: 10px
+.text__item
+	line-height: 18px
+
+.header-logo-menu
+	padding: -20px 0 0 0
+.header-logo-menu__menu
+	background-color: $orange
+	border: 7px solid $orange
+	border-radius: 5px
+.header-logo-menu
+	@media screen and (max-width: 768px)
+		background-color: green
+.header-logo-menu__logo, .header-logo-menu__menu
+	@media screen and (max-width: 768px)
+		display: none
+
+    
+   
