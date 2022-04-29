@@ -1,4 +1,6 @@
 @import "null.sass"
+@import "color.sass"
+@import "button.sass"
 body
 	background-color: bisque
 	@media screen and (max-width: 1200px)
@@ -8,49 +10,35 @@ body
 	@media screen and (max-width: 768px)
 		background-color: paleturquoise
 // Содержимое файла main.sass
-//Цвета
-//цвет фона
-$pale: rgba(219, 218, 196, 0.7)
-$whiteMilk: rgb(243, 245, 247)
-$whiteElephant: rgb(219, 218, 196)
-$white: rgb(255, 255, 255)
-$bluePale: rgb(191, 226, 230)
-$yellowPale: rgb(251, 246, 202)
-//цвета шрифтов
-$brownLight:  rgb(139, 115, 85)
-$brownDark:   rgb(53, 30, 16)
-$brownMiddle: rgba(77, 72, 60, 0.7)
-$burgundy: rgb(165, 42, 42)
-//цвета кнопок
-$greenVivid: rgb(62, 142, 78)
-$orange: rgb(241, 115, 69) //#f17345ff
-
-//Шрифты
-.brownDark
-	color: $brownDark
 
 .fontTahoma
 	font-family: "Tahoma"
 .fontSans
 	font-family: "Microsoft Sans Serif"
-	letter-spacing: .5px
+	
 .fontArial
 	font-family: "Arial"
 //Размеры шрифтов
 .size45px
 	font-size: 2.75em
+	@media screen and (max-width: 1200px)
+		font-size: 1.8em
 .size35px
 	font-size: 2.2em
+	@media screen and (max-width: 1200px)
+		font-size: 1.8em
 .size32px
 	font-size: 2em
 .size29px
 	font-size: 1.8em
+	@media screen and (max-width: 1200px)
+		font-size: 1em
 .size26px
 	font-size: 1.6em
 .size24px
 	font-size: 1.5em
 	@media screen and (max-width: 1200px)
-	font-size: 1.25em
+		font-size: 1em
 .size22px
 	font-size: 1.4em
 .size20px
@@ -61,19 +49,183 @@ $orange: rgb(241, 115, 69) //#f17345ff
 	padding: 10px
 .text__item
 	line-height: 18px
-
+.letter-space
+	letter-spacing: 2px
+//header
 .header-logo-menu
 	padding: -20px 0 0 0
+	@media screen and (max-width: 768px)
+		padding: 20px 20px 0 20px
+
 .header-logo-menu__menu
 	background-color: $orange
 	border: 7px solid $orange
 	border-radius: 5px
-.header-logo-menu
+
+.header-logo-menu__menu
 	@media screen and (max-width: 768px)
-		background-color: green
-.header-logo-menu__logo, .header-logo-menu__menu
+		background-color: $none
+		border: 0
+		border-radius: 0
+.header-logo-menu__logo img
+	@media screen and (max-width: 768px)
+		width: 108px
+		height: 90px
+.header-up
 	@media screen and (max-width: 768px)
 		display: none
+//footer
+.wrap-footer-block
+	flex: 0 0 auto
+	background-color: $burgundy
+	@media screen and (max-width: 768px)
+		background-color: $none
+.footer-block1_content
+	color: white
+.footer-block
+	padding: 30px
+	@media screen and (max-width: 768px)
+		display: none
+		padding: 0
+.icon
+	padding: 5px
+.footer-block1_content, .icon
+	@media screen and (max-width: 768px)
+		display: none
+
+.header-up-footer
+	display: none
+	@media screen and (max-width: 768px)
+		display: block
+//basket
+.wrap-content
+	padding: 40px 0 0 0
+.undertitle
+	padding: 50px 0 40px 0
+	@media screen and (max-width: 768px)
+		padding: 15px 0 15px 0
+.undertitle a 
+	color: $brownLight
+.undertitle a:hover
+	color: $brownDark
+.title
+	padding: 54px 0 0 0
+	@media screen and (max-width: 768px)
+		padding: 15px 0 0 0
+.content-empty
+	background-color: $greyElephant
+/* Slider */
+.content-empty-slider__title
+	padding: 40px 0 10px 0
+	@media screen and (max-width: 768px)
+		padding: 15px 0 0 0
+.slider
+	
+	/* Ширина контейнера */
+	
+	/* Внутренние отступы для ссылок navy */
+	
+	padding: 0 0 40px 0
+	@media screen and (max-width: 768px)
+		padding: 0
+	/* Позиционирование */
+	position: relative
+	/* Скроем то что выходит за границы */
+	overflow: hidden
+/* Двойной клик по ссылкам вперед/назад вызывает выделение */
+.slider::-moz-selection
+	background: transparent
+	color: #fff
+	text-shadow: none
+.slider::selection
+	background: transparent
+	color: #fff
+	text-shadow: none
+
+.slide-list
+	position: relative
+	margin: 0
+	padding: 0
+.slide-wrap
+	position: relative
+	left: 0px
+	top: 0
+	/* максимально возможная ширина обертки слайдера */
+	width: 10000000px
+.slide-item
+	/* Ширина слайда */
+	width: 400px
+	padding: 30px
+	@media screen and (max-width: 768px)
+		width: 190px
+		padding: 20px
+	/* Обтекание */
+	float: left
+/* навигация вперед/назад */
+.navy 
+	/* абсолютное позиционирование */
+	position: relative
+	z-index: 1
+	height: 40px
+	/* ширина ссылок */
+	width: 40px
+	cursor: pointer
+	
+.navy-phone img
+	background-color: white
+	border: 7px solid white
+	border-radius: 70px
+
+.arrow-navy
+	position: relative
+	top: 230px
+	@media screen and (max-width: 768px)
+		top: 100px
+	
+.slide-item__value
+	padding: 34px 0 40px 0
+	@media screen and (max-width: 768px)
+		padding: 10px 0
+.slide-title
+	padding: 25px 0 42px 0
+	@media screen and (max-width: 768px)
+		padding: 10px 0
+		height: 48px
+.slide-item__button
+	background-color: $orange
+	border: 7px solid $orange
+	border-radius: 10px
+	a
+		padding: 15px
+	@media screen and (max-width: 768px)
+	a 
+		padding: 0
+.slide-img img
+	@media screen and (max-width: 768px)
+		width: 108px
+		height: 90px
+//index-basket
+.content-order-list
+	padding: 40px 0 0 0
+.content-order-list_item__info-deleting
+	padding: 30px 0
+.content-order-list_item__info-weight
+	padding: 19px 0
+.content-order-list_item__info-structure
+	line-height: 30px
+.content-order-end__click
+	padding: 60px 0
+.content-order-end__click__btn
+	border-radius: 10px
+.content-order-list_item__info-delete a 
+	color: $brownLight
+.content-order-list_item__info-delete a:hover
+	color: $burgundyLight
+
+	
+
+
+		
 
     
    
