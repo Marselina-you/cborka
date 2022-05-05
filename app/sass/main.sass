@@ -1,6 +1,7 @@
 @import "null.sass"
 @import "color.sass"
 @import "button.sass"
+@import "padding.sass"
 body
 	background-color: bisque
 	@media screen and (max-width: 1200px)
@@ -98,10 +99,10 @@ body
 	@media screen and (max-width: 768px)
 		display: block
 //basket
-.wrap-content
-	padding: 40px 0 0 0
+
 .undertitle
-	padding: 50px 0 40px 0
+	padding-top: 50px 
+	padding-bottom: 40px
 	@media screen and (max-width: 768px)
 		padding: 15px 0 15px 0
 .undertitle a 
@@ -112,13 +113,10 @@ body
 	padding: 54px 0 0 0
 	@media screen and (max-width: 768px)
 		padding: 15px 0 0 0
-.content-empty
+.main-titles_phone
 	background-color: $greyElephant
 /* Slider */
-.content-empty-slider__title
-	padding: 40px 0 10px 0
-	@media screen and (max-width: 768px)
-		padding: 15px 0 0 0
+
 .slider
 	
 	/* Ширина контейнера */
@@ -205,16 +203,11 @@ body
 		width: 108px
 		height: 90px
 //index-basket
-.content-order-list
-	padding: 40px 0 0 0
-.content-order-list_item__info-deleting
-	padding: 30px 0
-.content-order-list_item__info-weight
-	padding: 19px 0
+
+
 .content-order-list_item__info-structure
 	line-height: 30px
-.content-order-end__click
-	padding: 60px 0
+
 .content-order-end__click__btn
 	border-radius: 10px
 .content-order-list_item__info-delete a 
@@ -222,10 +215,19 @@ body
 .content-order-list_item__info-delete a:hover
 	color: $burgundyLight
 //cart-full
-.wrap-content-order__amount
-	padding: 75px 0
 
-	
+//cart-form
+
+input[type="text"]
+	font-family: inherit
+	font-size: inherit
+	line-height: inherit
+	margin: 0
+	height: 50px
+label.required:after
+	color: red
+	content: "*"
+
 
 
 		
