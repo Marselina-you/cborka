@@ -6,11 +6,11 @@
                    
                      <div class="content-form__data text__item"><a href="" class="brownDark fontSans size20px">Alferova.Studio.com</a></div>
                 </div>
-                 <div class="icons__item icons__item_padding d-flex  align-items-center">
-                    
-                     <div class="content-form__data text__item"><a href="" class="brownDark fontSans size20px">8-979-787-55-55</a></div>
-                </div>
+                 
             </div>
         </div>
-        
+    <div class="icons__item icons__item_padding d-flex  align-items-center">
+                    
+                     <div class="content-form__data text__item"><a href="" class="brownDark fontSans size20px">8-979-787-55-55</a></div>
+                </div>    
     </div>
