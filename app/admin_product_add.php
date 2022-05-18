@@ -4,12 +4,12 @@
      <div class="edit__title title_padding darkBlue fontSans size29px"><a href="">Управление категориями</a></div>
       <div class="edit__title title_padding darkBlue fontSans size29px"><a href="">Управление заказами</a></div>
 </div>
-    <div class="edit__title title_padding orange text-center fontSans size29px">Редактирование товара</div>
+    <div class="edit__title title_padding orange fontSans text-center size29px">Добавление товара</div>
    
    
     
         <form class="d-flex bottom_padding flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column" enctype="multipart/form-data">
-         <div class="edit-cart__img col-xl-4 col-lg-4 col-md-12 col-sm-12 col-10"><img width ="" src="../images/page.png">
+         <div class="edit-cart__img col-xl-4 col-lg-4 col-md-12 col-sm-12 col-10"><img width ="" src="../images/flaund.png">
           <div class="d-flex file-padding"><input type="file" name="f">
   </div></div>
          <div class="wrap-edit-cart__content col-xl-7 col-lg-8 col-md-12 col-sm-12 col-12">
@@ -26,68 +26,68 @@
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Наименование</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Ассорти из пирожных" type="text" name="name" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="name" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Цена</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="400" type="text" name="price" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="price" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Вес</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="500" type="text" name="weight" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="weight" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-5 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Описание</div>
-            <div class="edit-cart__item-input col-xl-7 col-lg-8 col-md-12 col-sm-12"><textarea  type="text" name="desc" class="edit-cart__item-input-desc">Свежайшие Пирожные с фруктами и молочным шоколадом</textarea></div>
+            <div class="edit-cart__item-input col-xl-7 col-lg-8 col-md-12 col-sm-12"><textarea  type="text" name="desc" class="edit-cart__item-input-desc"></textarea></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Ингредиент 1</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Мука" type="text" name="ing1" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="ing1" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Ингредиент 2</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Вода" type="text" name="ing2" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="ing2" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Ингредиент 3</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Сахар" type="text" name="
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="
                 ing3" class="edit-cart__item-input"></div>
         </div>
         </div>
          <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Слоган</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Успей купить" type="text" name="slogan" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="slogan" class="edit-cart__item-input"></div>
         </div>
         </div>
          <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Топ 1</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Черника" type="text" name="top1" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="top1" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Топ 2</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Шоколад" type="text" name="top2" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="top2" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-4 col-sm-4 brownDark size20px">Топ 3</div>
-            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="Крем" type="text" name="top3" class="edit-cart__item-input"></div>
+            <div class="edit-cart__item-input col-xl-6 col-lg-8 col-md-12 col-sm-12"><input value="" type="text" name="top3" class="edit-cart__item-input"></div>
         </div>
         </div>
         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
@@ -113,10 +113,9 @@
                 <div class="edit-cart__item-input">Скрыть для пользователя</div>
             </div>
         </div>
-
         </div>
         </div>
-         <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
+          <div class="edit-cart__content edit-cart__content_padding d-flex justify-content-between">
             <div class="edit-cart__item d-flex flex-xl-row flex-lg-row flex-md-column flex-sm-column flex-column  align-item-center col-xl-12 col-lg-12 col-md-12 col-sm-12">
             <div class="edit-cart__item-title edit-cart__content_padding font-weight-bold col-xl-6 col-lg-4 col-md-2 col-sm-3 brownDark size20px">Наличие</div>
             <div class="col-xl-6 col-lg-8 col-md-12 col-sm-12 flex-column">
