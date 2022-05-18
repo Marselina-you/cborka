@@ -5,11 +5,14 @@
 body
 	background-color: bisque
 	@media screen and (max-width: 1200px)
-		background-color: white
+		background-color: $bluePale
 	@media screen and (max-width: 992px)
 		background-color: palegoldenrod
 	@media screen and (max-width: 768px)
 		background-color: paleturquoise
+	@media screen and (max-width: 576px)
+		background-color: bisque
+	
 // Содержимое файла main.sass
 
 .fontTahoma
@@ -22,23 +25,23 @@ body
 //Размеры шрифтов
 .size45px
 	font-size: 2.75em
-	@media screen and (max-width: 1200px)
+	@media screen and (max-width: 992px)
 		font-size: 1.8em
 .size35px
 	font-size: 2.2em
-	@media screen and (max-width: 1200px)
+	@media screen and (max-width:992px)
 		font-size: 1.8em
 .size32px
 	font-size: 2em
 .size29px
 	font-size: 1.8em
-	@media screen and (max-width: 1200px)
+	@media screen and (max-width: 992px)
 		font-size: 1em
 .size26px
 	font-size: 1.6em
 .size24px
 	font-size: 1.5em
-	@media screen and (max-width: 1200px)
+	@media screen and (max-width:992px)
 		font-size: 1em
 .size22px
 	font-size: 1.4em
@@ -218,12 +221,12 @@ body
 
 //cart-form
 
-input[type="text"]
-	font-family: inherit
-	font-size: inherit
-	line-height: inherit
-	margin: 0
-	height: 50px
+//input[type="text"]
+	//font-family: inherit
+	//font-size: inherit
+	//line-height: inherit
+	//margin: 0
+	//height: 50px
 label.required:after
 	color: red
 	content: "*"
@@ -232,8 +235,51 @@ label.required:after
 	background-color: #e1dcb5
 .main-admin-support
 	margin-top: 70px
+
 textarea
 	height: 50px
+input[class="edit-cart__item-input"]
+	padding-left: 15px
+	font-size: 22px
+	height: auto
+	width: 100%
+	@media screen and (max-width: 992px)
+		font-size: 16px
+		height: 30px
+.edit-cart__img img 
+	@media screen and (max-width: 576px)
+		width: 95%
+select[class="edit-cart__item-input"]
+	padding-left: 15px
+	font-size: 22px
+	height: auto
+	width: 100%
+	@media screen and (max-width: 992px)
+		font-size: 16px
+		
+textarea[class="edit-cart__item-input-desc"]
+	padding-left: 15px
+
+	font-size: 22px
+	height: auto
+	width: 100%
+	@media screen and (max-width: 992px)
+		font-size: 16px
+		height: auto
+	
+.edit-cart__item-title
+	@media screen and (max-width: 768px)
+		height: 25px
+
+.edit-cart__item-input
+	padding-left: 15px
+	font-size: 22px
+	height: 40px
+	width: 100%
+	@media screen and (max-width: 992px)
+		font-size: 16px
+		height: 30px
+
 
 		
 

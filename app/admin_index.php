@@ -1,4 +1,4 @@
-<div class="main-admin col-xl-6 offset-xl-1 wrap-content">
+<div class="container-fluid main-admin col-xl-6 offset-xl-1 wrap-content">
     <div class="main-admin__hello title_padding size35px brownDark fontTahoma">Добро пожаловать, Федор!</div>
     <div class="main-admin-sections">
         <div class="main-admin-sections__item title_padding"><a href="" class="size29px">Управление товарами</a></div>
