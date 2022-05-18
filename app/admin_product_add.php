@@ -1,8 +1,8 @@
 <div class="container-fluid col-xl-12 edit">
     <div class="d-flex">
-    <div class="edit__title title_padding darkBlue fontSans size29px"><a href="" class="orange">Управление товарами</a></div>
-     <div class="edit__title title_padding darkBlue fontSans size29px"><a href="">Управление категориями</a></div>
-      <div class="edit__title title_padding darkBlue fontSans size29px"><a href="">Управление заказами</a></div>
+    <div class="edit__title title_padding darkBlue fontSans size32px"><a href="" class="orange">Управление товарами</a></div>
+     <div class="edit__title title_padding darkBlue fontSans size32px"><a href="">Управление категориями</a></div>
+      <div class="edit__title title_padding darkBlue fontSans size32px"><a href="">Управление заказами</a></div>
 </div>
     <div class="edit__title title_padding orange fontSans text-center size29px">Добавление товара</div>
    
