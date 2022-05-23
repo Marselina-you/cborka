@@ -5,7 +5,7 @@
             <div class="undertitle size29px fontTahoma letter-space"><a href="">Перейти в каталог</a></div>
          </div>
          
-      </div></div>
+      </div>
 
       <div class="main">
    <div class="content-empty-slider__title brownDark size29px fontTahoma letter-space d-flex justify-content-center">Рекомендуем</div>

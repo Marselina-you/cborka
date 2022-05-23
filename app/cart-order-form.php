@@ -4,7 +4,7 @@
          
              <div class="main-order-content__undertitle col-xl-12 size29px fontTahoma letter-space title_padding"><a href="">Вернуться в корзину</a></div>
    <div class="main-order-content__title title_padding col-xl-12 size35px brownDark fontTahoma letter-space">Оформление заказа</div>
-   <div class="main-order-content__title col-xl-12 size29px fontTahoma letter-space  title_padding">Пожалуйста, для оформления заказа заполните форму</div>
+   <div class="main-order-content__title col-xl-12 size29px fontTahoma letter-space  title_padding">Пожалуйста, для оформления заказа заполните форму(или пусть регистрируется и входит!!!)</div>
    <form class="main-order-content__form form_padding d-flex flex-column"  method="post">
       <div class="content-form__data d-flex align-items-center justify-content-between">
          <div class="content-form__data-title size35px col-xl-4">Имя:</div>
