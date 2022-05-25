@@ -3,8 +3,21 @@
 @import "button.sass"
 @import "padding.sass"
 @import "font.sass"
+html, body
+	height: 100%
+.wrap-content
+	display: flex
+	flex-direction: column
+	min-height: 100%
+	margin-top: -68px
+.main
+	flex: 1 0 auto
+.wrap-footer-block
+	flex: 0 0 auto
+
 body
-	background-color: bisque
+
+	background-color: $xl-pone
 	@media screen and (max-width: 1200px)
 		background-color: $bluePale
 	@media screen and (max-width: 992px)
@@ -12,7 +25,7 @@ body
 	@media screen and (max-width: 768px)
 		background-color: paleturquoise
 	@media screen and (max-width: 576px)
-		background-color: bisque
+		background-color: $sm-phon
 
 //header
 .header-logo-menu
@@ -26,7 +39,7 @@ body
 	border-radius: 5px
 
 .header-logo-menu__menu
-	@media screen and (max-width: 768px)
+	@media screen and (max-width: 576px)
 		background-color: $none
 		border: 0
 		border-radius: 0
@@ -71,15 +84,12 @@ body
 	color: $brownLight
 .undertitle a:hover
 	color: $brownDark
-.title
-	padding: 54px 0 0 0
-	@media screen and (max-width: 768px)
-		padding: 15px 0 0 0
+
 .main-titles_phone
 	background-color: $greyElephant
 /* Slider */
 
-.slider
+.slider, .slider-action
 	
 	/* Ширина контейнера */
 	
@@ -278,11 +288,153 @@ textarea[class="edit-cart__item-input-desc"]
 .user-index-shop-info__condition
 	background-color: $brownGrey
 	border-radius: 10px
+//start
+.wrap-content
+	background: url(../images/head-fon.png) no-repeat
+	@media screen and (max-width: 1200px)
+		background: url(../images/lg-fon.png) no-repeat
+	@media screen and (max-width: 992px)
+		background: url(../images/mdfon.png) no-repeat
+	@media screen and (max-width: 768px)
+		background: url(../images/sm-fon.png) no-repeat
+	//@media screen and (max-width: 576px)
+		//background: url(../images/head-fon.png) no-repeat
 
+.main-header-logo
+	margin-top: 68px
+	@media screen and (max-width: 768px)
+		margin-top: 15px
+		
+.main-start-name__item2, .main-start-name__item3
+	@media screen and (max-width: 768px)
+		display: none
+.main-start
+	height: 972px
+	@media screen and (max-width: 1200px)
+		height: 672px
+	@media screen and (max-width: 992px)
+		height: 672px
+	@media screen and (max-width: 768px)
+		height: 245px
+	@media screen and (max-width: 576px)
+		height: 245px
+//grandmenu
+.main-grandmenu-block__btn
+	background-color: $orange
+	border-radius: 10px
+.main-grandmenu
+	display: flex
+	padding: 30px 0
+	@media screen and (max-width: 768px)
+		display: none
 
+//action-slider
+.main-action-slider
+	background: url(../images/phone.png) no-repeat
+	background-size: cover
+.slider-action
+	/* Ширина контейнера */
+	/* Внутренние отступы для ссылок navy */
+	width: 112em
+	padding: 0 
+	@media screen and (max-width: 1200px)
+		width: 62em
+		padding: 0 
+	@media screen and (max-width: 992px)
+		width: 60em
+	@media screen and (max-width: 768px)
+		padding: 0
+	/* Позиционирование */
+	position: relative
+	/* Скроем то что выходит за границы */
+	overflow: hidden
+/* Двойной клик по ссылкам вперед/назад вызывает выделение */
+.slider::-moz-selection
+	background: transparent
+	color: #fff
+	text-shadow: none
+.slider::selection
+	background: transparent
+	color: #fff
+	text-shadow: none
 
+.slide-list
+	position: relative
+	margin: 0
+	padding: 0
+.slide-wrap
+	position: relative
+	left: 0px
+	top: 0
+	/* максимально возможная ширина обертки слайдера */
+	width: 10000000px
+.slide-img img
+	@media screen and (max-width: 1200px)
+		width: 90%
+	@media screen and (max-width: 992px)
+		width: 70%
+.action-slider-slide-item
+
+	/* Ширина слайда */
+	width: 56em
+	padding: 0
+	@media screen and (max-width: 1200px)
+		width: 31em
+		padding: 0
+	@media screen and (max-width: 992px)
+		width: 30em
+		padding: 0
+		
+	@media screen and (max-width: 768px)
+		width: 190px
+		padding: 20px
+	/* Обтекание */
+	float: left
+/* навигация вперед/назад */
+.navy 
+	/* абсолютное позиционирование */
+	position: relative
+	z-index: 1
+	
+	/* ширина ссылок */
+	
+	cursor: pointer
 	
 
+.action-arrow-navy
+	width: 10%
+	position: relative
+	padding-bottom: 20px
+	@media screen and (max-width: 768px)
+		top: 10px
+
+	
+.slide-item__value
+	padding: 34px 0 40px 0
+	@media screen and (max-width: 768px)
+		padding: 10px 0
+.slide-title
+	padding: 25px 0 42px 0
+	@media screen and (max-width: 768px)
+		padding: 10px 0
+		height: 48px
+
+.slide-img img
+	@media screen and (max-width: 768px)
+		width: 108px
+		height: 90px	
+
+//main-about-content
+.main-about-content
+	background: url(../images/prot.gif) no-repeat
+	background-position: center
+.main-btn_hover 
+	&:hover
+		background-color: #cc623b
+	cursor: pointer
+.main_btn
+	&:hover
+		color: white
 
 
 
