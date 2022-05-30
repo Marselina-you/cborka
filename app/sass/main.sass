@@ -8,8 +8,40 @@ html, body
 .wrap-content
 	display: flex
 	flex-direction: column
-	min-height: 100%
-	margin-top: -68px
+	min-height: 94%
+
+	
+	
+	//@media screen and (max-width: 576px)
+		//background: url(../images/head-fon.png) no-repeat
+//start
+.main-header-logo
+	padding-top: 70px
+	@media screen and (max-width: 768px)
+		margin-top: 15px
+		
+.main-start-name__item2, .main-start-name__item3
+	@media screen and (max-width: 768px)
+		display: none
+.main-start
+	height: 900px
+	@media screen and (max-width: 1200px)
+		height: 672px
+	@media screen and (max-width: 992px)
+		height: 672px
+	@media screen and (max-width: 768px)
+		height: 245px
+	@media screen and (max-width: 576px)
+		height: 245px
+.main-start	
+	margin-top: -108px
+	background: url(../images/xl-fon.png) no-repeat
+	//@media screen and (max-width: 1200px)
+		//background: url(../images/lg-fon.png) no-repeat
+	//@media screen and (max-width: 992px)
+		//background: url(../images/mdfon.png) no-repeat
+	//@media screen and (max-width: 768px)
+		//background: $whiteElephant
 .main
 	flex: 1 0 auto
 .wrap-footer-block
@@ -288,36 +320,7 @@ textarea[class="edit-cart__item-input-desc"]
 .user-index-shop-info__condition
 	background-color: $brownGrey
 	border-radius: 10px
-//start
-.wrap-content
-	background: url(../images/head-fon.png) no-repeat
-	@media screen and (max-width: 1200px)
-		background: url(../images/lg-fon.png) no-repeat
-	@media screen and (max-width: 992px)
-		background: url(../images/mdfon.png) no-repeat
-	@media screen and (max-width: 768px)
-		background: url(../images/sm-fon.png) no-repeat
-	//@media screen and (max-width: 576px)
-		//background: url(../images/head-fon.png) no-repeat
 
-.main-header-logo
-	margin-top: 68px
-	@media screen and (max-width: 768px)
-		margin-top: 15px
-		
-.main-start-name__item2, .main-start-name__item3
-	@media screen and (max-width: 768px)
-		display: none
-.main-start
-	height: 972px
-	@media screen and (max-width: 1200px)
-		height: 672px
-	@media screen and (max-width: 992px)
-		height: 672px
-	@media screen and (max-width: 768px)
-		height: 245px
-	@media screen and (max-width: 576px)
-		height: 245px
 //grandmenu
 .main-grandmenu-block__btn
 	background-color: $orange
@@ -332,10 +335,14 @@ textarea[class="edit-cart__item-input-desc"]
 .main-action-slider
 	background: url(../images/phone.png) no-repeat
 	background-size: cover
+	display: flex
+	justify-content: center
+	@media screen and (max-width: 768px)
+		display: none
 .slider-action
 	/* Ширина контейнера */
 	/* Внутренние отступы для ссылок navy */
-	width: 112em
+	width: 1200px
 	padding: 0 
 	@media screen and (max-width: 1200px)
 		width: 62em
@@ -357,7 +364,6 @@ textarea[class="edit-cart__item-input-desc"]
 	background: transparent
 	color: #fff
 	text-shadow: none
-
 .slide-list
 	position: relative
 	margin: 0
@@ -376,7 +382,7 @@ textarea[class="edit-cart__item-input-desc"]
 .action-slider-slide-item
 
 	/* Ширина слайда */
-	width: 56em
+	width: 600px
 	padding: 0
 	@media screen and (max-width: 1200px)
 		width: 31em
@@ -425,9 +431,21 @@ textarea[class="edit-cart__item-input-desc"]
 		height: 90px	
 
 //main-about-content
+.main-about
+	display: flex
+	justify-content: center
+	align-items: center
+	@media screen and (max-width: 768px)
+		display: none
 .main-about-content
 	background: url(../images/prot.gif) no-repeat
 	background-position: center
+	@media screen and (max-width: 992px)
+		background-size: 80%
+.main-about-row__img img 
+	@media screen and (max-width: 1200px)
+		width: 90%
+
 .main-btn_hover 
 	&:hover
 		background-color: #cc623b
@@ -435,7 +453,71 @@ textarea[class="edit-cart__item-input-desc"]
 .main_btn
 	&:hover
 		color: white
+//catalog
+.header-logo
+	margin-top: -35px
+//.menu-category-titles
+	//padding: 0
+.menu-category-titles
+	@media screen and (max-width: 576px)
+		flex-direction: column
+.wrap-menu-category-img
+	@media screen and (max-width: 768px)
+		display: none
+.menu-category-titles-item
+	padding: 45px 0
+	border-radius: 15px 15px 0 0
+	@media screen and (max-width: 992px)
+		padding: 25px 0
+		
+	@media screen and (max-width: 768px)
+		padding: 15px 0
+		border-radius: 15px
+.menu-category-titles-item_phone1
+	background-color: $color1
+	&:hover
+		cursor: pointer
+		background-color: $color1-hover
+.menu-category-titles-item_phone2
+	background-color: $color2
+	&:hover
+		cursor: pointer
+		background-color: $color2-hover
+.menu-category-titles-item_phone3
+	background-color: $color3
+	&:hover
+		cursor: pointer
+		background-color: $color3-hover
+.menu-category-img_phone
+	background-color: #dcd7af
+	
+.menu-category-img img
+	width: 99%
 
+	
+
+.view-product-left__img img
+	@media screen and (max-width: 768px)
+		width: 70%
+.view-product-right__name_sm
+	display: none
+	@media screen and (max-width: 992px)
+		display: flex
+
+
+.separator img
+	width: 70%
+	
+.view-product-right, .separator
+	display: flex
+	@media screen and (max-width: 992px)
+		display: none
+
+	
+	
+
+
+    
 
 
 		
