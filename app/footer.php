@@ -1,4 +1,4 @@
-<div class="wrap-footer-block col-lg-12">
+<div class="wrap-footer-block">
             <div class="footer-block  d-flex justify-content-between align-items-center">
             <div class="footer-block1">
                 <div class="footer-block1_content">Alferova.studio.com</div>

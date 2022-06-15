@@ -1,6 +1,6 @@
 <div class="header-main">  
 <div class="header d-flex justify-content-end">
-     <div class ="header-up">
+     <div class ="header-up header-up_padding">
         <div class ="header-row1 col-xl-4 col-lg-5 col-md-6 col-sm-12 d-flex flex-column">
             <div class="icons d-flex align-items-center justify-content-between">
                  <div class="icons__item icons__item_padding d-flex  flex-column align-items-center">
