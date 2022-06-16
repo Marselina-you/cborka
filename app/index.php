@@ -28,7 +28,7 @@
 //require_once('user_index.php');
 
 
-//require_once('cart-empty.php');
+require_once('cart-empty.php');
 //require_once('cart-full.php');
 //require_once('cart-order-end.php');
 //require_once('cart-order-form.php');
@@ -38,18 +38,19 @@
 ?>
 
 <?php //require_once('start.php'); 
-//require_once('catalog.php');   ?>   
+  ?>   
 <div class="wrap-content">
     <div class="main">
      <div class="header-logo col-xl-10 col-lg-10 offset-xl-1 offset-lg-1 col-md-10 offset-md-1 col-sm-10 offset-sm-1 d-flex justify-content-between align-items-center"><div class="header-logo-menu__logo"><img src="../images/logo.png" alt=""></div><div class="header-logo-menu__menu"><img src="../images/menu.png" alt=""></div></div>
 
 
-<?php //require_once('menu_category.php');?>
+<?php require_once('menu_category.php');?>
 
 
 
 <?php //require_once('admin_index.php');
-require_once('action-slider.php'); ?>
+//require_once('action-slider.php'); 
+require_once('catalog.php'); ?>
 
 
  </div>
